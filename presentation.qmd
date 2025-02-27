@@ -1,0 +1,66 @@
+---
+title: "World Development Indicators Presentation"
+author: Caleb Sharkey
+date: 2/25/2025
+format:
+  revealjs:
+    theme: solarized
+    transition: slide
+    slide-level: 2
+bibliography: references.bib
+---
+
+# Title Slide
+
+Welcome to the presentation on World Development Indicators.
+
+---
+
+# Overview
+
+- Analysis of key indicators
+- Data visualizations and summary statistics
+- Insights and conclusions
+
+---
+
+# Data Analysis
+
+Below is the scatter plot of **GDP per Capita vs Life Expectancy**.
+
+---
+
+![Scatter Plot](fig-gdp-lifeexp.png)
+
+
+And here is the bar chart of the **Top 10 Countries with Highest Unemployment Rate**.
+
+--- 
+
+![Bar Chart](fig-top-unemployment.png)
+
+---
+
+# Summary Statistics
+
+Below is the summary table of key statistics for GDP per Capita, Life Expectancy, and Unemployment Rate:
+
+Table: Summary of Key Statistics {#tbl-key-stats}
+
+| Indicator           |      mean |    median |        min |         max |
+|:--------------------|----------:|----------:|-----------:|------------:|
+| gdp_per_capita      | 20520.34  | 7606.24   | 250.63     | 226052.00   |
+| life_expectancy     | 72.42     | 73.51     | 52.997     | 85.38       |
+| unemployment_rate   | 7.23      | 5.33      | 0.13       | 35.36       |
+
+
+---
+
+# Conclusion
+
+- This data reveals significant wealth and health inequalities present across the world.
+- Further analysis is recommended in order to determine potential solutions for these problems.
+
+**References:**
+- World Bank [@worldbank2022]
+- wbgapi Documentation [@wbgapi]
